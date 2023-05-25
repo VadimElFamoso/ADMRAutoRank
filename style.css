@@ -1,0 +1,10 @@
+#app{
+    text-align: center;
+}
+
+items{
+    text-align: center;
+    background-color: lightgreen;
+    width: 10vw;
+    height: 5vh;
+}
