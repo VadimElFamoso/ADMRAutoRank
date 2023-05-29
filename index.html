@@ -16,28 +16,29 @@
     </div>
     
     <div id="app">
-        <item class="item" v-for="item in items" :content="item"></item>
+        <item class="item" v-for="federation in federations" :content="federation"></item>
     </div>
 
-    <script>
+    <script type="module">
+        import { data } from './data.js'
         const app = Vue.createApp({
             data(){
                 return{
-                    
-                }
-            },     
+                    federations: data
+                };
+            },   
         })
 
         app.component('item',{
             props:['content'],
-            template: `<p>{{ content.name }} (dep. {{ content.id }})</p>`
-        })
+            template: `<p>{{ content.name }} (dep. {{ content.id }}) - Score : <span>{{ content.score }}</span></p>`
+        }),
+
 
         app.mount('#app');
 
-
     </script>
-    <script src="app.js"></script>
+    <script type="module" src="app.js"></script>
     <script type="module" src="data.js"></script>
 </body>
 
