@@ -1,5 +1,5 @@
 import {data} from "./data.js";
-let api_key = "AIzaSyCfunX_X-U1WHAVR6VQ6d-mMn65V_PPu3I";
+let api_key = "";
 let score = document.querySelectorAll(".item span")
 
 function callApi(fd_url, fd_name){
