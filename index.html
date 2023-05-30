@@ -31,10 +31,10 @@
 
         app.component('item',{
             props:['content'],
-            template: `<p>{{ content.name }} (dep. {{ content.id }}) - Score : <span>{{ content.score }}</span></p>`
+            template: `<p>{{ content.name }} (dep. {{ content.id }}) - URL : <a>{{ content.url }}</a> - Score : <span>{{ content.score }}</span></p>`
         }),
 
-
+        app.config.compilerOptions.whitespace = 'preserve';
         app.mount('#app');
 
     </script>
