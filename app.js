@@ -5,7 +5,7 @@ const status_span = document.querySelector("#title_container h2 span");
 let final_result = [];
 
     function defineScore(index, score){
-            score_span.item(index).innerHTML = score;
+            score_span.item(index).innerHTML = score + "/400";
             data[index].score = score;
             console.log(data);
     }

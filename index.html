@@ -15,7 +15,7 @@
 <body>
     <div id="title_container">
         <h1>ADMRAutoRank</h1>
-        <p>Modèle de classement des sites web des fédérations départementales ADMR se basant sur les résultats de Google Pagespeed Insights.</p>    
+        <p>Modèle de classement des sites web des fédérations départementales ADMR se basant <br>sur les résultats de Google Pagespeed Insights.</p>    
         <h2>Statut : <span>Calcul des scores...</span></h2>
     </div>
     
@@ -35,7 +35,7 @@
 
         app.component('item',{
             props:['content'],
-            template: `<p>{{ content.name }} (dep. {{ content.id }}) - URL : <a>{{ content.url }}</a> - Score : <span>{{ content.score }}</span></p>`
+            template: `<p>{{ content.name }} (dep. {{ content.id }}) - URL : <a>{{ content.url }}</a> - Score : <span>{{ content.score }}/400</span></p>`
         }),
 
         app.config.compilerOptions.whitespace = 'preserve';

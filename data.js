@@ -3,7 +3,8 @@ export const data = [
         id: 1,
         name: "Fédération dep. de l'Ain",
         url: "https://www.fede01.admr.org/",
-        score: 0
+        score: 0,
+        flagged: true
     },
     
     {
@@ -45,7 +46,8 @@ export const data = [
         id: 7,
         name: "Fédération dep. de l'Ardêche",
         url: "https://www.admr-ardeche.fr/",
-        score: 0
+        score: 0,
+        flagged: true
     },
     
     {
@@ -73,14 +75,16 @@ export const data = [
         id: 12,
         name: "Fédération dep. de l'Aveyron",
         url: "https://www.fede12.admr.org/",
-        score: 0
+        score: 0,
+        flagged: true
     },
     
     {
         id: 13,
         name: "Fédération dep. des Bouches-du-Rhône",
         url: "https://www.admr13.com/",
-        score: 0
+        score: 0,
+        flagged: true
     },
     
     {
@@ -101,7 +105,8 @@ export const data = [
         id: 16,
         name: "Fédération dep. de Charente",
         url: "https://www.admr16.org/",
-        score: 0
+        score: 0,
+        flagged: true
     },
     
     {
@@ -122,427 +127,488 @@ export const data = [
         id: "2a",
         name: "Fédération dep. de Corse-du-Sud",
         url: "https://www.admr2a.corsica/",
-        score: 0
+        score: 0,
+        flagged: true
     },
     
     {
         id: "2b",
         name: "Fédération dep. de Haute-Corse",
         url: "https://www.admr2b.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 21,
         name: "Fédération dep. de Côte-d'Or",
         url: "https://www.fede21.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 22,
         name: "Fédération dep. des Côtes d'Armor",
         url: "https://www.fede22.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 24,
         name: "Fédération dep. de Dordogne",
         url: "https://www.fede24.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 25,
         name: "Fédération dep. du Doubs",
         url: "https://www.fede25.admr.org/",
-        score: 0
+        score: 0,
+        flagged: true
     },
     
     {
         id: 26,
         name: "Fédération dep. de la Drôme",
         url: "https://www.fede26.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 27,
         name: "Fédération dep. de l'Eure",
         url: "https://www.fede27.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 28,
         name: "Fédération dep. de l'Eure-et-Loir",
         url: "https://www.fede28.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 30,
         name: "Fédération dep. du Gard",
         url: "https://www.fede30.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 31,
         name: "Fédération dep. de Haute-Garonne",
         url: "https://www.fede31.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 32,
         name: "Fédération dep. du Gers",
         url: "https://www.admr32.fr/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 33,
         name: "Fédération dep. de Gironde",
         url: "https://www.fede33.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 34,
         name: "Fédération dep. du Hérault",
         url: "https://www.admr34.fr/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 35,
         name: "Fédération dep. d'Île-et-Vilaine",
         url: "https://www.admr35.org/",
-        score: 0
+        score: 0,
+        flagged: true
     },
     
     {
         id: 36,
         name: "Fédération dep. de l'Indre",
         url: "https://www.admr36.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 37,
         name: "Fédération dep. de l'Indre-et-Loire",
         url: "https://www.fede37.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 38,
         name: "Fédération dep. de l'Isère",
         url: "https://www.admr38.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 39,
         name: "Fédération dep. du Jura",
         url: "https://www.fede39.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 40,
         name: "Fédération dep. des Landes",
         url: "https://www.fede40.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 41,
         name: "Fédération dep. du Loir-et-Cher",
         url: "https://www.fede41.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 42,
         name: "Fédération dep. de la Loire",
         url: "https://www.fede42.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 43,
         name: "Fédération dep. de la Haute-Loire",
         url: "https://www.fede43.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 44,
         name: "Fédération dep. de Loire-Atlantique",
         url: "https://www.admr44.org/",
-        score: 0
+        score: 0,
+        flagged: true
     },
     
     {
         id: 45,
         name: "Fédération dep. du Loiret",
         url: "https://www.fede45.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 46,
         name: "Fédération dep. du Lot",
         url: "https://www.fede46.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 47,
         name: "Fédération dep du Lot-et-Garonne",
         url: "https://www.fede47.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 48,
         name: "Fédération dep. de Lozère",
         url: "https://www.admr48.fr/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 49,
         name: "Fédération dep. de Maine-et-Loire",
         url: "https://49.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 50,
         name: "Fédération dep. de la Manche",
         url: "https://www.admr50.fr/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 51,
         name: "Fédération dep. de la Marne",
         url: "https://www.admr51.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 52,
         name: "Fédération dep. de Haute-Marne",
         url: "https://www.fede52.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 53,
         name: "Fédération dep. de Mayenne",
         url: "https://www.admr53.fr/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 54,
         name: "Fédération dep. de Meurthe-et-Moselle",
         url: "https://www.admr54.fr/",
-        score: 0
+        score: 0,
+        flagged: true
     },
     
     {
         id: 55,
         name: "Fédération dep. de Meuse",
         url: "https://www.fede55.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 56,
         name: "Fédération dep. du Morbihan",
         url: "https://www.admr56.com/",
-        score: 0
+        score: 0,
+        flagged: true
     },
     
     {
         id: 58,
         name: "Fédération dep. de la Nièvre",
         url: "https://www.fede58.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 59,
         name: "Fédération dep. du Nord",
         url: "https://www.fede59.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 60,
         name: "Fédération dep. de l'Oise",
         url: "https://www.fede60.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 61,
         name: "Fédération dep. de l'Orne",
         url: "https://www.admr61.fr/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 62,
         name: "Fédération dep. du Pas-de-Calais",
         url: "https://www.62.admr.org/",
-        score: 0
+        score: 0,
+        flagged: true
     },
     
     {
         id: 63,
         name: "Fédération dep. du Puy-de-Dôme",
         url: "https://www.fede63.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 64,
         name: "Fédération dep. des Pyrénées-Atlantiques",
         url: "http://admr64.fr/",
-        score: 0
+        score: 0,
+        flagged: true
     },
     
     {
         id: 65,
         name: "Fédération dep. des Hautes-Pyrénées",
         url: "https://www.fede65.admr.org/ ",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: "67-68",
         name: "Fédération dep. d'Alsace",
         url: "https://admr-alsace.com/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 69,
         name: "Fédération dep. du Rhône",
         url: "https://www.admr-rhone.fr/",
-        score: 0
+        score: 0,
+        flagged: true
     },
     
     {
         id: 70,
         name: "Fédération dep. de Haute-Saône",
         url: "https://www.fede70.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 71,
         name: "Fédération dep. de Saône-et-Loire",
         url: "https://www.fede71.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 72,
         name: "Fédération dep. de la Sarthe",
         url: "https://www.admr72.fr/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 73,
         name: "Fédération dep. de Savoie",
         url: "https://www.admr-savoie.fr/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 74,
         name: "Fédération dep. de Haute-Savoie",
         url: "https://www.fede74.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 75,
         name: "Union Nationale ADMR (UN)",
         url: "https://www.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 76,
         name: "Fédération dep. de Seine-Maritime",
         url: "https://www.fede76.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 77,
         name: "Fédération dep. de Seine-et-Marne",
         url: "https://www.fede77.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 78,
         name: "Fédération dep. des Yvelines",
         url: "https://www.fede78.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 79,
         name: "Fédération dep. des Deux-Sèvres",
         url: "https://www.fede79.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 81,
         name: "Fédération dep. du Tarn",
         url: "https://www.admrtarn.fr/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 82,
         name: "Fédération dep. du Tarn-et-Garonne",
         url: "https://www.admr82.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 83,
         name: "Fédération dep. du Var",
         url: "https://www.fede83.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 84,
         name: "Fédération dep. du Vaucluse",
         url: "https://www.admr84.fr/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 85,
         name: "Fédération dep. de Vendée",
         url: "https://www.admr85.org/",
-        score: 0
+        score: 0,
+        flagged: true
     },
     
     {
