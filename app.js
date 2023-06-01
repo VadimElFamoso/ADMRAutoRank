@@ -1,13 +1,25 @@
 import {data} from "./data.js";
 let api_key = "AIzaSyCfunX_X-U1WHAVR6VQ6d-mMn65V_PPu3I";
-const score_span = document.querySelectorAll(".item span")
+const federations = document.querySelectorAll(".item");
+let federations_array = [];
+const score_span = document.querySelectorAll(".item span");
 const status_span = document.querySelector("#title_container h2 span");
-let final_result = [];
+
+    //Sort function
+    function sortingScore(){
+            data.sort((a,b) => b.score - a.score);
+    }
+
+    
+    for(let i = 0; i < data.length; i++){
+        if(data[i].flagged === true){
+            federations.item(i).style.backgroundColor = "#eb9534";    
+        }
+    }
 
     function defineScore(index, score){
             score_span.item(index).innerHTML = score + "/400";
             data[index].score = score;
-            console.log(data);
     }
 
     //Calculate the score of each ADMR federation website :
@@ -21,16 +33,17 @@ let final_result = [];
             const categories = lighthouse.categories;     
             let def_score = categories.performance.score * 100 + categories.accessibility.score * 100 + categories['best-practices'].score * 100 + categories.seo.score * 100; 
             defineScore(i, def_score);
+            sortingScore();
+            if(!checkStatus){
+                status_span.innerHTML = "Scores attribués."
+
+            }
 
             console.log("Score défini : item n°" + (i + 1));
             }) 
         }
                         
     } 
-    
-    function sortArray(){
-        
-    }
     
     //Check if each DOM federation score still contains object with empty scores return true if so, return false if not : 
     function checkStatus(){
@@ -39,7 +52,6 @@ let final_result = [];
                 return false;
             }
             else{
-                status_span.innerHTML = "Scores attribués."
                 return true;
             }
         }

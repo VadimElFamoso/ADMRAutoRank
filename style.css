@@ -46,3 +46,7 @@
 .item span{
     font-weight: 700;
 }
+
+.item .flagged{
+    background-color: #eb9534;
+}

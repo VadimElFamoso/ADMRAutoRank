@@ -11,35 +11,40 @@ export const data = [
         id: 2,
         name: "Fédération dep. de l'Aisne",
         url: "https://www.fede02.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 3,
         name: "Fédération dep. de l'Allier",
         url: "https://www.fede03.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 4,
         name: "Fédération dep. des Alpes de Haute-Provence",
         url: "https://www.fede04.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 5,
         name: "Fédération dep. des Hautes-Alpes",
         url: "https://www.admr05.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 6,
         name: "Fédération dep. des Alpes-Maritimes",
         url: "https://admr06.net/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
@@ -54,21 +59,24 @@ export const data = [
         id: 8,
         name: "Fédération dep. de l'Ardennes",
         url: "https://www.fede08.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 10,
         name: "Fédération dep. de l'Aube",
         url: "https://www.fede10.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 11,
         name: "Fédération dep. de l'Aude",
         url: "https://www.fede11.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
@@ -91,14 +99,16 @@ export const data = [
         id: 14,
         name: "Fédération dep. du Calvados",
         url: "https://www.admr14.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 15,
         name: "Fédération dep. du Cantal",
         url: "https://www.fede15.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
@@ -113,14 +123,16 @@ export const data = [
         id: 17,
         name: "Fédération dep. de Charente-Maritime",
         url: "https://www.fede17.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
         id: 18,
         name: "Fédération dep. du Cher",
         url: "https://www.fede18.admr.org/",
-        score: 0
+        score: 0,
+        flagged: false
     },
     
     {
