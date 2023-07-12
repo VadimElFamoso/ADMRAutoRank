@@ -9,8 +9,28 @@
     font-weight: 200;
 }
 
+#title_container h1{
+    font-size: 4em;
+}
+
 #title_container p{
     font-size: 1.5em;
+}
+
+#title_container img.left{
+    position: absolute;
+    top: 25px;
+    left: 25px;
+    width: 15%;
+    height: auto;
+}
+
+#title_container img.right{
+    position: absolute;
+    top: 25px;
+    right: 25px;
+    width: 15%;
+    height: auto;
 }
 
 
